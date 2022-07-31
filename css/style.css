@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  margin-top: 2.75rem;
+  background: #fff;
+}
+
+.navbar #logo {
+  font-weight: 600;
+  font-size: 1.56rem;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.carousel-inner {
+  margin-bottom: 2rem;
+}
+
+.carousel-inner .carousel-caption {
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.carousel-inner .carousel-caption h5 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.88rem;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-caption h5 {
+    font-size: 2.5rem;
+    line-height: 3.13rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-inner .carousel-caption h5 {
+    font-size: 4.06rem;
+    line-height: 5.31rem;
+  }
+}
+
+.carousel-inner .carousel-caption p {
+  font-size: 0.75rem;
+  line-height: 1.12rem;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-caption p {
+    font-size: 1rem;
+    line-height: 1.88rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-inner .carousel-caption p {
+    font-size: 1.23rem;
+    line-height: 1.88rem;
+  }
+}
+
+.carousel-inner .carousel-caption button {
+  padding: 0.44rem 1.13rem;
+  background: #289BDE;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-caption button {
+    font-size: 1.13rem;
+    padding: 0.69rem 1.13rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-inner .carousel-caption button {
+    font-size: 1.25rem;
+    padding: 0.81rem 2.06rem;
+  }
+}
+
+.popular .popular-head {
+  text-align: center;
+}
+
+.popular .popular-head h5 {
+  font-size: 1.13rem;
+  font-weight: 600;
+}
+
+.popular .popular-head p {
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+}
+
+.popular .popular-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular .popular-body .card {
+  margin-bottom: 1.06rem;
+}
+
+.popular .popular-body .card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4A4A4A;
+}
+
+.popular .popular-body .card .card-text {
+  color: #777777;
+  font-size: 0.88rem;
+}
+
+.popular .popular-body .card h4 {
+  font-size: 1.13rem;
+  color: #289BDE;
+  font-weight: 600;
+}
+
+.popular .popular-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popular .popular-footer button {
+  background: #289BDE;
+  font-size: 1.13rem;
+  padding: 0.69rem 1.13rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.elearning {
+  margin-bottom: 2rem;
+}
+
+.elearning .card .card-title {
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  font-weight: 600;
+}
+
+.elearning .card .card-body {
+  background: #F4FAFD;
+  padding-inline: 1.25rem 1.96rem;
+}
+
+.elearning .card .card-body p {
+  color: #777777;
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+}
+
+.elearning .card .card-body span {
+  font-weight: 600;
+  color: #289BDE;
+}
+
+.elearning .card .card-body .button {
+  background: #289BDE;
+  font-size: 1.13rem;
+  padding: 0.44rem 1.13rem;
+  font-weight: 600;
+}
+
+.elearning .card .card-body h4 {
+  font-size: 1.56rem;
+  font-weight: 600;
+}
+
+.rtj .card .card-body {
+  text-align: center;
+  background: #289BDE;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.rtj .card .card-body .card-title {
+  font-size: 1.13rem;
+  font-weight: 600;
+}
+
+.rtj .card .card-body .card-text {
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+}
+
+.rtj .card .card-body .button {
+  color: #289BDE;
+  font-weight: 600;
+}
+
+.success .success-head {
+  margin-top: 2rem;
+  text-align: center;
+  padding-inline: 35px;
+}
+
+.success .success-head h5 {
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  font-weight: 600;
+}
+
+.success .success-head p {
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+  margin-bottom: 2rem;
+}
+
+.success .card {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.success .card .card-title {
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  font-weight: 600;
+  color: #4A4A4A;
+}
+
+.success .card .card-body {
+  padding-inline: 1.25rem 1.96rem;
+}
+
+.success .card .card-body p {
+  color: #777777;
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+}
+
+.success .card .card-body span {
+  font-weight: 600;
+  color: #289BDE;
+}
+
+.success .card .card-body .button {
+  background: #289BDE;
+  font-size: 1.13rem;
+  padding: 0.44rem 1.13rem;
+  font-weight: 600;
+}
+
+.success .card .card-body h4 {
+  font-size: 1.56rem;
+  font-weight: 600;
+}
+
+.success .success-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success .success-footer .button {
+  background: #289BDE;
+  font-size: 1.13rem;
+  padding: 0.44rem 1.13rem;
+  font-weight: 600;
+}
+
+.student .student-head {
+  margin-top: 2rem;
+  text-align: center;
+  padding-inline: 35px;
+}
+
+.student .student-head h5 {
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  font-weight: 600;
+}
+
+.student .student-head p {
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+  margin-bottom: 2rem;
+}
+
+.student .student-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.student .student-body .card {
+  margin-bottom: 1.06rem;
+  text-align: center;
+  text-align: left;
+}
+
+.student .student-body .card .card-body > .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.student .student-body .card .card-body .card-text {
+  color: #777777;
+  font-size: 1rem;
+}
+
+.student .student-body .card .card-body .qut {
+  padding: 10px 12px;
+}
+
+.student .student-body .card .card-body h4 {
+  font-weight: 600;
+  font-size: 1.13rem;
+  color: #4A4A4A;
+  margin: 0;
+}
+
+.student .student-body .card .card-body .profile-cap {
+  color: #777777;
+  margin: 0;
+}
+
+.student .student-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.student .student-footer button {
+  background: #289BDE;
+  font-size: 1.13rem;
+  padding: 0.69rem 1.13rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.faq .faq-header {
+  text-align: center;
+}
+
+.faq .faq-header h5 {
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  font-weight: 600;
+}
+
+.faq .faq-header p {
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+  margin-bottom: 2rem;
+}
+
+.accordion .accordion-item {
+  margin-bottom: 1rem;
+}
+
+.accordion .accordion-button {
+  font-weight: 600;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  color: #4A4A4A;
+  background: rgba(40, 155, 222, 0.1);
+}
+
+footer {
+  margin-top: 1rem;
+  background: #161616;
+  text-align: center;
+  padding: 30px 45px;
+}
+
+footer h2 {
+  font-weight: 600;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  color: #fff;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social i {
+  color: #fff;
+  background: #242424;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

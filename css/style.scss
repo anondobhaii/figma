@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    margin-top: 2.75rem;
+    background: #fff;
+   #logo{
+       font-weight: 600;
+       font-size: 1.56rem;
+   } 
+   .navbar-toggler{
+       border: none;
+       outline: none;
+   }
+}
+
+.carousel-inner{
+    .carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+    h5{
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.88rem;
+        @media (min-width:768px){
+            font-size: 2.5rem;
+            line-height: 3.13rem;
+        }
+        @media (min-width:992px){
+            font-size: 4.06rem;
+            line-height: 5.31rem;
+        }
+    }
+    p{
+        font-size: 0.75rem;
+        line-height: 1.12rem;
+        @media (min-width:768px){
+            font-size: 1rem;
+            line-height: 1.88rem;
+        }
+        @media (min-width:992px){
+            font-size: 1.23rem;
+            line-height: 1.88rem;
+        }
+    }
+    button{
+        padding: 0.44rem 1.13rem;
+        background: #289BDE;
+        @media (min-width:768px){
+            font-size: 1.13rem;
+            padding: 0.69rem 1.13rem;
+        }
+        @media (min-width:992px){
+            font-size: 1.25rem;
+            padding: 0.81rem 2.06rem;
+        }
+    }
+}
+margin-bottom: 2rem;
+}
+
+.popular{
+    .popular-head{
+        text-align: center;
+        h5{
+            font-size: 1.13rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.88rem;
+            line-height: 1.5rem;
+        }
+    }
+    .popular-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card{
+            margin-bottom:1.06rem;
+            .card-title{
+                font-size: 1rem;
+                font-weight: 600;
+                color: #4A4A4A;
+            }
+            .card-text{
+                color: #777777;
+                font-size: 0.88rem;
+            }
+            h4{
+                font-size: 1.13rem;
+                color: #289BDE;
+                font-weight: 600;
+
+            }
+        }
+    }
+    .popular-footer{ 
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        button{
+            background: #289BDE;
+            font-size: 1.13rem;
+            padding: 0.69rem 1.13rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+
+.elearning{
+    margin-bottom: 2rem;
+    .card{
+        .card-title{
+            font-size: 1.25rem;
+            line-height: 1.88rem;
+            font-weight: 600;
+        }
+        .card-body{
+            background: #F4FAFD;
+            padding-inline: 1.25rem 1.96rem;
+
+            p{
+                color: #777777;
+                font-size: 0.88rem;
+                line-height: 1.31rem;
+            }
+            span{
+                font-weight: 600;
+                color: #289BDE;
+            }
+            .button{
+                background: #289BDE;
+                font-size: 1.13rem;
+                padding: 0.44rem 1.13rem;
+                font-weight: 600;
+            }
+            h4{
+                font-size: 1.56rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.rtj{
+    .card{
+        
+        .card-body{
+            text-align: center;
+            background: #289BDE;
+            color: #fff;
+            padding: 30px 20px;
+            .card-title{
+                font-size: 1.13rem;
+                font-weight: 600;
+            }
+            .card-text{
+                font-size:0.88rem;
+                line-height: 1.5rem;
+            }
+           .button{
+               color: #289BDE;
+               font-weight: 600;
+           } 
+        }
+    }
+}
+
+.success{
+
+    .success-head{
+        margin-top: 2rem;
+        text-align: center;
+        padding-inline: 35px ;
+        h5{
+            font-size: 1.25rem;
+            line-height: 1.88rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.88rem;
+            line-height: 1.31rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .card{
+        margin-bottom: 1rem;
+        text-align: center;
+        .card-title{
+            font-size: 1.25rem;
+            line-height: 1.88rem;
+            font-weight: 600;
+            color: #4A4A4A;
+        }
+        .card-body{
+            padding-inline: 1.25rem 1.96rem;
+
+            p{
+                color: #777777;
+                font-size: 0.88rem;
+                line-height: 1.31rem;
+            }
+            span{
+                font-weight: 600;
+                color: #289BDE;
+            }
+            .button{
+                background: #289BDE;
+                font-size: 1.13rem;
+                padding: 0.44rem 1.13rem;
+                font-weight: 600;
+            }
+            h4{
+                font-size: 1.56rem;
+                font-weight: 600;
+            }
+        }
+    }
+    .success-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .button{
+            background: #289BDE;
+            font-size: 1.13rem;
+            padding: 0.44rem 1.13rem;
+            font-weight: 600;
+        }
+    }
+}
+
+
+
+
+.student{
+    .student-head{
+        margin-top: 2rem;
+        text-align: center;
+        padding-inline: 35px ;
+        h5{
+            font-size: 1.25rem;
+            line-height: 1.88rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.88rem;
+            line-height: 1.31rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .student-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card{
+            margin-bottom:1.06rem;
+            text-align: center;
+            text-align: left;
+            .card-body{
+                >.row{
+                    align-items: center;
+                }
+                .card-text{
+                    color: #777777;
+                    font-size: 1rem;
+                }
+    
+                .qut{
+                    padding: 10px 12px;
+                }
+    
+                h4{
+                    font-weight: 600;
+                    font-size: 1.13rem;
+                    color: #4A4A4A;
+                    margin: 0;
+                }
+                .profile-cap{
+                    color: #777777;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .student-footer{ 
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        button{
+            background: #289BDE;
+            font-size: 1.13rem;
+            padding: 0.69rem 1.13rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.faq{
+    .faq-header{
+        text-align: center;
+        h5{
+            font-size: 1.25rem;
+            line-height: 1.88rem;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.88rem;
+            line-height: 1.31rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.accordion{
+    .accordion-item{
+        margin-bottom: 1rem;
+    }
+    .accordion-button{
+        font-weight: 600;
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+        &:not(.collapsed) {
+            color: #4A4A4A;
+            background: rgba(40, 155, 222, 0.1);
+        }
+    }
+}
+
+footer{
+    margin-top: 1rem;
+    background: #161616;
+    text-align: center;
+    padding: 30px 45px;
+    h2{
+        font-weight: 600;
+        font-size: 1.88rem;
+        color: #fff;
+    }
+    p{
+        font-size: 0.88rem;
+        line-height: 1.75rem;
+        color: #fff;
+    }
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        i{
+            color: #fff;
+            background: #242424;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+
+        }
+    }
+}

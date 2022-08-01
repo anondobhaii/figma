@@ -19,6 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" id="logo" href="#">Pro Edu</a>
+                <button class="btn btn-outline-success submit d-none d-md-block d-lg-none" type="submit">Register</button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,26 +29,23 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#">Courses</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Success</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success submit d-block d-md-none d-lg-block" type="submit">Register</button>
                 </form>
                 </div>
             </div>
@@ -97,7 +95,8 @@
                 </div>
                 <div class="popular-body">
                     <div class="card "  >
-                        <img class="card-img-top" src="./img/Rectangle 6.jpg" alt="Card image cap">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6.jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (4).jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Fundamental Of UI/UX Design</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
@@ -105,7 +104,8 @@
                         </div>
                       </div>
                     <div class="card ">
-                        <img class="card-img-top" src="./img/Rectangle 6 (1).jpg" alt="Card image cap">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6 (1).jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (5).jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Javascript Basic to advanced</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
@@ -113,7 +113,35 @@
                         </div>
                       </div>
                     <div class="card">
-                        <img class="card-img-top" src="./img/Rectangle 22.jpg" alt="Card image cap">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 22.jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (6).jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Fullstack Web Development</h5>
+                          <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          <h4>Price : 20$</h4>
+                        </div>
+                      </div>
+                    <div class="card d-none d-lg-block"  >
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6.jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (4).jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          <h4>Price : 20$</h4>
+                        </div>
+                      </div>
+                    <div class="card  d-none d-lg-block">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6 (1).jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (5).jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Javascript Basic to advanced</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          <h4>Price : 20$</h4>
+                        </div>
+                      </div>
+                    <div class="card d-none d-lg-block">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 22.jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (6).jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Fullstack Web Development</h5>
                           <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card.</p>
@@ -128,7 +156,8 @@
 
             <div class="elearning">
                 <div class="card">
-                    <img class="card-img-top" src="./img/Rectangle 8.jpg" alt="Card image cap">
+                    <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 8.jpg" alt="Card image cap">
+                    <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 8 (1).jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Explore The elearning Institute</h5>
                       <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which....<span>See More</span></p>
@@ -169,25 +198,35 @@
             <div class="success">
                 <div class="success-head">
                     <h5>Meet Our Successfull Students</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="success-body">
-                    <div class="card "  >
-                        <img class="card-img-top" src="./img/Rectangle 11.jpg" alt="Card image cap">
+                    <div class="card d-none d-md-block md-1"  >
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 7.jpg" alt="Card image cap">                        
+                        <div class="card-body">
+                          <h5 class="card-title">Awlad Hossain</h5>
+                          <p class="card-text">UI/UX Designer</p>
+                        </div>
+                      </div>
+                    <div class="card md-2"  >
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (7).jpg" alt="Card image cap">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 11.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Imran Hossain</h5>
                           <p class="card-text">Graphic Designer</p>
                         </div>
                       </div>
-                    <div class="card ">
-                        <img class="card-img-top" src="./img/Rectangle 6 (2).jpg" alt="Card image cap">
+                    <div class="card md-3">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6 (2).jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 6 (8).jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Nishi Akter</h5>
                             <p class="card-text">Web Developer</p>
                         </div>
                       </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./img/Rectangle 6 (3).jpg" alt="Card image cap">
+                    <div class="card md-4">
+                        <img class="card-img-top d-sm-block d-md-none" src="./img/Rectangle 6 (3).jpg" alt="Card image cap">
+                        <img class="card-img-top d-none d-md-block md" src="./img/Rectangle 7 (1).jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Jannatul Islam</h5>
                           <p class="card-text ">Motion Designer</p>
@@ -195,7 +234,7 @@
                       </div>
                 </div>
                 <div class="success-footer">
-                    <button type="button" class="btn btn-primary button">View All</button>
+                    <button type="button" class="btn btn-primary button d-block d-md-none">View All</button>
                 </div>
             </div>
 
@@ -212,7 +251,7 @@
                                     <img src="./img/Vector (2).png" alt="">
                                 </div>
                                 <div class="col-4"></div>
-                                <div class="col-5">
+                                <div class="col-5  star">
                                     <img src="./img/Vector (3).png" alt="">
                                     <img src="./img/Vector (3).png" alt="">
                                     <img src="./img/Vector (3).png" alt="">
@@ -222,24 +261,27 @@
                             </div>
                           <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
                           <div class="row">
-                              <div class="col-2">
+                              <div class="col-5 pro-pic">
                                   <img src="./img/Ellipse 1.png"  alt="">
+                                  <div class="img-info">
+                                    <h4>Awlad Hossain</h4>
+                                    <p class="profile-cap">UI Designer</p>
+                                  </div>
                               </div>
-                              <div class="col-10">
-                                  <h4>Awlad Hossain</h4>
-                                  <p class="profile-cap">UI Designer</p>
+                              <div class="col-7">
+                                  
                               </div>
                           </div>
                         </div>
                       </div>
                     <div class="card "  >
                         <div class="card-body">
-                            <div class="row">
+                            <div class="row ">
                                 <div class="col-3  qut">
                                     <img src="./img/Vector (2).png" alt="">
                                 </div>
                                 <div class="col-4"></div>
-                                <div class="col-5">
+                                <div class="col-5 star">
                                     <img src="./img/Vector (3).png" alt="">
                                     <img src="./img/Vector (3).png" alt="">
                                     <img src="./img/Vector (3).png" alt="">
@@ -249,13 +291,15 @@
                             </div>
                           <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
                           <div class="row">
-                              <div class="col-2">
-                                  <img src="./img/Ellipse 1 (1).png"  alt="">
-                              </div>
-                              <div class="col-10">
+                            <div class="col-5 pro-pic">
+                                <img src="./img/Ellipse 1 (1).png"  alt="">
+                                <div class="img-info">
                                   <h4>Shanta Akter</h4>
                                   <p class="profile-cap">Graphic Designer</p>
-                              </div>
+                                </div>
+                            </div>
+                            <div class="col-7"></div>
+                            
                           </div>
                         </div>
                       </div>
@@ -293,6 +337,18 @@
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What other services are you compatible with?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden. 
                     </div>
